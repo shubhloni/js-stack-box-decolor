@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.outerBox {
+  margin: 10px;
+  padding: 10px;
+  width: max-content;
+}
+
+.innerBox {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.redBox {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background-color: red;
+}
+
+.greenBox {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background-color: green;
+}
